@@ -1,0 +1,23 @@
+@import 'reset','color','btn','mixin';
+.container{
+  height: 100vh;
+  background-color:$bgcolor;
+  @include displays;
+  gap: 1%;
+  .button{
+    @extend.btn;
+    @include displays;
+    &:hover{
+      background-color: $text3color;
+      box-shadow: 0 0 3rem $text3color;
+      color: $text2color;} }
+  .button2{
+    @extend.btn;
+    @include displays;
+    &:hover{
+    background-color:$text1color;
+    box-shadow: 0 0 3rem $text1color;
+    color:$text3color;}
+  }
+}
+

@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn, .container .button2, .container .button {
+  height: 4rem;
+  width: 8rem;
+  border: solid;
+}
+
+.container {
+  height: 100vh;
+  background-color: #045b0b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1%;
+}
+.container .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .button:hover {
+  background-color: white;
+  box-shadow: 0 0 3rem white;
+  color: #2dabf8;
+}
+.container .button2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .button2:hover {
+  background-color: #c108f5;
+  box-shadow: 0 0 3rem #c108f5;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
